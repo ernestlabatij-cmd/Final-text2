@@ -1,0 +1,83 @@
+.header {
+  display: flex;           
+  align-items: center;      
+  justify-content: space-between; 
+  padding: 40px 48px;       
+  box-sizing: border-box;
+  right: 50px;
+}
+
+.menu {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+font-family: 'JetBrains Mono', monospace;
+padding: 0px;
+gap: 24px;
+position: absolute;
+width: 700px;
+height: 20px;
+left: 146px;
+top: 55px;     
+
+}
+
+.social {
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+position: absolute;
+width: 192px;
+height: 24px;
+right: 48px;
+top: 60px;          
+}
+
+.welcome {
+position: absolute;
+width: 118px;
+height: 39px;
+left: 625px;
+top: 152px;
+font-family: 'StoneSoupNFW01-Regular';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+letter-spacing: 0.05em;
+color: #C2E978;
+}
+
+.welcome {
+  white-space: nowrap; /* Забороняє словам переноситися на новий рядок */
+  width: auto;         /* Дозволяє блоку розтягуватися під довжину тексту */
+  text-align: center;  /* Центрує напис по середині */
+}
+
+.welcome {
+  font-family: 'Chelsea Market', cursive; /* Можна також спробувати 'Barriecito' */
+  font-size: 44px;                        /* Робимо напис значно більшим */
+  color: #B4E359;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  white-space: nowrap;                    /* Щоб нічого не з'їжджало вниз */
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+
+/* Робимо ефект "одна літера вище, інша нижче" */
+.welcome {
+  display: inline-block;
+}
+
+.welcome  {
+  transform: translateY(12px) rotate(-5deg); /* Трохи вгору і нахил */
+}
+
+.welcome {
+  transform: translateY(4px) rotate(3deg);   /* Трохи вниз і нахил */
+}
