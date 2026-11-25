@@ -5,19 +5,19 @@ body {
 }
 
 .hero-header {
-  min-height: 100vh; 
-  
-  background: 
+  min-height: 100vh;
+
+  background:
     linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.9) 0%,    
-      rgba(0, 0, 0, 0.2) 30%,  
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0.2) 30%,
       rgba(0, 0, 0, 0.2) 70%,
-      rgba(0, 0, 0, 1) 100%       
+      rgba(0, 0, 0, 1) 100%
     ),
-    url('/src/img/257b97bf52bf6d01a3f94fcd6e78f76203da1be0.png'); 
+    url('/src/img/257b97bf52bf6d01a3f94fcd6e78f76203da1be0.png');
 
-  background-size: cover;      
-  background-position: center;  
-  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
